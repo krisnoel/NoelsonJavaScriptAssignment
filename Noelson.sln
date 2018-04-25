@@ -5,6 +5,21 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noelson", "Noelson\Noelson.csproj", "{82A5AE7E-280E-4B66-AA71-1A10F4568AA9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2AEE5F5-9F1A-4CA1-A85C-F6B4A8D8B890}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{97EEF3EC-029B-4F0D-92B4-326EA76488B2}"
+	ProjectSection(SolutionItems) = preProject
+		NoelsonStyle.css = NoelsonStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{8AA94E6B-077D-4C53-89D5-D753924FF45A}"
+	ProjectSection(SolutionItems) = preProject
+		NoelsonJS.js = NoelsonJS.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +33,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97EEF3EC-029B-4F0D-92B4-326EA76488B2} = {F2AEE5F5-9F1A-4CA1-A85C-F6B4A8D8B890}
+		{8AA94E6B-077D-4C53-89D5-D753924FF45A} = {F2AEE5F5-9F1A-4CA1-A85C-F6B4A8D8B890}
 	EndGlobalSection
 EndGlobal
